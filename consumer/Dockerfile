@@ -1,5 +1,5 @@
 FROM python:2.7-onbuild
-ENV PYTHONPATH /usr/src/app
+ENV PYTHONPATH "${PYTHONPATH}:/app"
 WORKDIR /app
 ADD consumer.py /app
 ADD requirements.txt /app
