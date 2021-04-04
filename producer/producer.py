@@ -44,6 +44,6 @@ if __name__ == '__main__':
         else:
             LOG.warning('Message NOT delivered')
 
-        sleep(2)
+        sleep(20)
 
     connection.close()
